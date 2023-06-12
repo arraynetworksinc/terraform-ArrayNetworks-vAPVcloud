@@ -96,7 +96,8 @@ resource "aws_instance" "apv_instance" {
   key_name               = aws_key_pair.my_auth.id
 
   tags = {
-    "Name" : "vAPV"
+    "Name" : "vAPV",
+    "Version": "12.4.3"
   }
 }
 
