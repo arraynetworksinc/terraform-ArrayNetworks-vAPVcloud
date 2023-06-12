@@ -14,3 +14,7 @@ Install terrafom using below link
 
 https://aws.plainenglish.io/install-terraform-on-aws-ec2-linux-step-by-step-detailed-bd1e7b4a12f3
 
+Steps to run terraform resource
+1. terraform init
+2. terraform plan
+3. terraform init
